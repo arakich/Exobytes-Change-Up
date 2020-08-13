@@ -1,0 +1,12 @@
+extern double robotTheta;
+extern double robotX;
+extern double robotY;
+extern void thread_Odometry(void*param);
+extern double calcDistance(double x1, double y1, double x2, double y2);
+extern double calcDistance(double x2, double y2);
+extern double calcAngleError(double theta);
+extern double calcAngleError(double targetX, double targetY);
+extern double calcAngleErrorReversed(double targetX, double targetY);
+extern double calcAngleErrorReversed(double theta);
+extern double* calcPointOfIntersection(double x1, double y1, double theta1);
+extern void resetOdometry();
