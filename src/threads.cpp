@@ -3,7 +3,6 @@
 int intakeState = 2;
 bool shooting = false;
 bool ejecting = false;
-bool test = false;
 
 bool topBall;
 bool botBall;
